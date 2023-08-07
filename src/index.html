@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.scss">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body>
+
+  <main>
+    <div class="card">
+      <img src="./images/illustration-box-desktop.svg" alt="Cube" class="cube">
+      <div class="card__header">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="./images/illustration-woman-online-desktop.svg">
+          <img src="./images/illustration-woman-online-mobile.svg" alt="Logo" class="main-image">
+        </picture>
+      </div>
+      <div class="card__content">
+        <h1>FAQ</h1>
+        <ul class="accordion-list">
+          <li class="accordion-list__item">
+            <div class="title">
+              How many team members can I invite? <img src="./images/icon-arrow-down.svg" alt="" class="arrow">
+            </div>
+            <div class="content">
+              <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</p>
+            </div>
+          </li>
+          <li class="accordion-list__item">
+            <div class="title">
+              What is the maximum file upload size? <img src="./images/icon-arrow-down.svg" alt="" class="arrow">
+            </div>
+            <div class="content">
+              <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+            </div>
+          </li>
+          <li class="accordion-list__item">
+            <div class="title">
+              How do I reset my password? <img src="./images/icon-arrow-down.svg" alt="" class="arrow">
+            </div>
+            <div class="content">
+              <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</p>
+            </div>
+          </li>
+          <li class="accordion-list__item">
+            <div class="title"> 
+              Can I cancel my subscription? <img src="./images/icon-arrow-down.svg" alt="" class="arrow">
+            </div>
+            <div class="content">
+              <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+            </div>
+          </li>
+          <li class="accordion-list__item">
+            <div class="title">
+              Do you provide additional support? <img src="./images/icon-arrow-down.svg" alt="" class="arrow">
+            </div>
+            <div class="content">
+              <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  
+  <!-- Footer with my signature -->
+  <footer>
+    <div class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br>
+        Coded by <a href="https://github.com/Sprada-rus" target="_blank">Ilya Sapronov</a>.
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="main.ts" type="module"></script>
+</body>
+</html>
